@@ -13,6 +13,10 @@ def divide(a, b):
         return "Error: Can't divide by zero"
     return a / b
 
+def power(a, b):
+"""Return a raised to the power of b."""
+return a ** b
+
 # Take input from user
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
