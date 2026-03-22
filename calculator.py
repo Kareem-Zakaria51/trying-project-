@@ -1,13 +1,18 @@
-# Simple Calculator: Add and Subtract Two Numbers
+# Functions
+def add(a, b):
+    return a + b
+
+def subtract(a, b):
+    return a - b
+
+def multiply(a, b):
+    return a * b
 
 # Take input from user
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 
 # Perform operations
-addition = num1 + num2
-subtraction = num1 - num2
-
-# Display results
-print("Addition =", addition)
-print("Subtraction =", subtraction)
+print("Addition =", add(num1, num2))
+print("Subtraction =", subtract(num1, num2))
+print("Multiplication =", multiply(num1, num2))
